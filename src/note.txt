@@ -1,0 +1,128 @@
+project create 
+
+npm init -y 
+
+
+project :
+node index.js
+
+node file handle  
+
+node enviroment  backend
+
+express :package   apis create 
+backend framework 
+
+
+npm i packagename
+npm i express
+
+chrome get post put delete postman  apis test
+
+
+
+node_module package file or project run
+
+package-lock.json file package
+
+
+python : pip
+node js setup 
+
+npm : node package manager 
+
+server listen : update
+
+nodemon
+
+
+mongodb
+code 10 line
+no validation 
+no schema   data object
+faster
+
+
+mongoose
+code 2,3 line
+easy use
+validation
+schema  data structure  : document
+slower
+
+clean manage , scale
+
+routes : url routes   url/admin/add-product, url/admin/get-product, url/admin/get-users
+application 3
+separete : 
+
+admin
+url/admin/add-product, url/admin/get-product, url/admin/get-users,url/admin/delete-product,url/admin/update-product
+
+subadmin
+url/admin/add-product, url/admin/get-product, url/admin/get-users,url/admin/update-product
+
+user
+ url/admin/get-product, order
+
+common  login
+
+controller: code logical req data validate
+model: data structure
+helpers: reuseable calling  function  use
+validator:  apis validate login :email password
+
+
+
+
+
+// project CRUD   one file 
+// ecom  project structure in future mange 
+
+routes  : url endpoint  easy manage  aik file mix  confuse 
+localhost:3000/admin/create-post :post    20
+
+subamdin : 15
+
+user
+localhost:3000/user/get-product : 10 
+
+
+
+controller : logical code   route   controller
+
+model/ schema  : data structure formate document 
+
+validator : api validate    login  call req :proper email password
+
+helpers : reuse 
+
+
+middleware : user validate access token 
+
+mongodb connect   CRUD
+
+
+mongoose
+
+
+connect  collection
+
+db data store
+
+schema  collection document field
+
+
+node js javascript browser 
+termial server side  backend apis use express
+
+bcrypt
+
+
+joi
+api  validation 
+
+react   toke
+
+jwt  
+api secure
