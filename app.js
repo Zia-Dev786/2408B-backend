@@ -38,13 +38,13 @@ app.use(express.json());
 // free  cloudinary
 // path  server paid storage 
 app.use('/tmp/upload', express.static(path.join(__dirname, '/tmp/upload')));
-app.use(cors({
-   origin: [
-    "http://localhost:5000",
-    "http://localhost:5173",
-  ],
-  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"],}
+app.use(cors(
+  //  origin: [
+  //   "http://localhost:5000",
+  //   "http://localhost:5173",
+  // ],
+  // methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  // allowedHeaders: ["Content-Type", "Authorization"],}
 ))
 
 app.use("/api/users", userRoutes);
